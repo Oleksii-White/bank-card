@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #262222;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.div-design {
+  max-width: 100vw;
+  max-height: 100vh;
+  position: relative;
+}
+.div-design .circle {
+  position: absolute;
+  border-radius: 50%;
+}
+.div-design .circle-medium {
+  width: 279px;
+  height: 279px;
+  background-color: #f79e1b;
+  top: -10px;
+  left: -100px;
+}
+.div-design .circle-big {
+  width: 364px;
+  height: 364px;
+  background-color: #e04141;
+  bottom: 0px;
+  left: 100px;
+}
+.div-design .circle-small {
+  width: 112px;
+  height: 112px;
+  background-color: #f79e1b;
+  left: 520px;
+  bottom: 100px;
+}
+
+.card-wrap {
+  max-width: 578px;
+  height: 346px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5019607843), rgba(211, 211, 211, 0.3137254902));
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  width: 100%;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 38px 22px 19px;
+  color: white;
+}
+.card-wrap .card-info h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.card-wrap .card-info h2 {
+  margin-top: 133px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.215em;
+}
+.card-wrap .card-date {
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  margin: 22px 0 12px;
+}
+.card-wrap .card-date :last-child {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.195em;
+}
+.card-wrap .card .card-holder {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-wrap .sup-info {
+  justify-self: end;
+  align-self: center;
+}
+.card-wrap .sup-info h2 {
+  margin-top: 120px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.215em;
+  text-align: center;
+}
+.card-wrap .sup-info img {
+  margin-top: 70px;
+}/*# sourceMappingURL=style.css.map */
